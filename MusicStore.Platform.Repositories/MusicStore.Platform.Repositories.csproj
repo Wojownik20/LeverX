@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStore.Core.Db\MusicStore.Core.Db.csproj" />
+    <ProjectReference Include="..\MusicStore.Platform.Interfaces\MusicStore.Platform.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\MusicStore.Platform.Repositories.Abstractions\MusicStore.Platform.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\MusicStore.Platform.Services\MusicStore.Platform.Services.csproj" />
+  </ItemGroup>
+
+</Project>
